@@ -1,0 +1,7 @@
+[
+	{
+		"name": "Broken tests",
+		"traceRegex": ".*ProgrammingError.*",
+		"matchedStatuses": ["failed"]
+	}
+]

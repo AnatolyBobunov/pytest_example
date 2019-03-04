@@ -1,0 +1,6 @@
+#Ignore temp files
+*.*~
+allure-report/*
+generatedReport/*
+tests/*
+.pytest_cache

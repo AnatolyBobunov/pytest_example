@@ -28,6 +28,8 @@ allure-report/*
 .hypothesis/
 .pytest_cache/
 *.log
+*.*~
+.pytest_cache
 
 # Environments
 !.gitkeep

@@ -1,0 +1,11 @@
+version: "1"
+services:
+  smena-auto-tests:
+    image: qa/smena_auto_tests
+    network_mode: host
+    environment:
+      REPO_NAME: smena_auto_tests
+      ALLURE_VERSION: 2.12.0
+    command: pytest -v httpbin_test_requests/tests/test_super_test.py
+    volumes:
+      - "./pytest_example"
